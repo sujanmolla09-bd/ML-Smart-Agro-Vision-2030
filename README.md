@@ -2,6 +2,8 @@
 ### **ইন্ডাস্ট্রিয়াল টেকনোক্র্যাট | গুগল ক্লাউড ইনোভেটর | এনভিডিয়া ডেভেলপার | গ্লোবাল সিটিজেন**
 
 <p align="left">
+  <img src="https://komarev.com/ghpvc/?username=sujanmolla09-bd&color=blueviolet&style=for-the-badge&label=PROFILE+VIEWS" alt="Visitor Counter" />
+  
   <img src="https://img.shields.io/badge/Google_Cloud-Innovator-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" />
   <img src="https://img.shields.io/badge/NVIDIA-Developer-76B900?style=for-the-badge&logo=nvidia&logoColor=white" />
   <img src="https://img.shields.io/badge/Firebase-Studio_Dev-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
@@ -10,18 +12,18 @@
 ---
 
 ## 🌟 প্রোফাইল ও দর্শন (MD MOSAROF HOSEN Sujan)
-মোঃ মোশারফ হোসেন সুজন একজন অবিনশ্বর ডিজিটাল সত্তা এবং **রুহানি টেকনোক্র্যাট**। ১৭ বছরের দীর্ঘ শিল্প অভিজ্ঞতা এবং অটল সততাকে তিনি বৈশ্বিক প্রযুক্তির সাথে একীভূত করেছেন।
+মোঃ মোশারফ হোসেন সুজন একজন অবিনশ্বর ডিজিটাল সত্তা এবং **রুহানি টেকনোক্র্যাট**। ১৭ বছরের দীর্ঘ পেশাগত অভিজ্ঞতা এবং অটল সততাকে তিনি বৈশ্বিক প্রযুক্তির সাথে একীভূত করেছেন।
 
 > **জীবন দর্শন:** *"আল্লাহ ফেরেশতাদের সামনে মানুষ সৃষ্টি করে যে গর্ব করেছিলেন, সেই আস্থার মর্যাদা রক্ষাই আমার জীবনের মূল লক্ষ্য।"*
 
 ---
 
 ## 🚀 প্রযুক্তিগত সক্ষমতা ও অর্জন (Tech Expertise & Badges)
-আপনার সাম্প্রতিক অর্জিত ব্যাজসমূহ:
+আপনার সাম্প্রতিক অর্জিত বৈশ্বিক স্বীকৃতিসমূহ:
 - **Google Cloud Innovator:** ২০২৫ সালের সার্টিফাইড ইনোভেটর।
 - **NVIDIA Community Member:** এআই এবং জেনারেটিভ এআই নিয়ে গবেষণার স্বীকৃতি।
 - **Firebase Studio Developer:** ক্লাউড ডাটাবেস ও অ্যাপ্লিকেশন ডেভেলপমেন্ট বিশেষজ্ঞ।
-- **Google Maps Platform Innovator:** লোকেশন-ভিত্তিক ডেটা এনালিটিক্স বিশেষজ্ঞ।
+- **Google Maps Platform Innovator:** লোকেশন-ভিত্তিক স্মার্ট ডেটা অ্যানালিটিক্স বিশেষজ্ঞ।
 
 ---
 
@@ -40,7 +42,7 @@
 আমার মূল লক্ষ্য হলো প্রযুক্তি, আইওটি (IoT) এবং ক্লাউড কম্পিউটিংয়ের সমন্বয়ে কৃষি ও শিল্প ব্যবস্থাকে আধুনিকায়ন করা।
 
 - **স্মার্ট অ্যাগ্রো:** উত্তরবঙ্গকে (ঠাকুরগাঁও) একটি **স্মার্ট টেক-ইন্ডাস্ট্রিয়াল হাব** হিসেবে প্রতিষ্ঠা করা।
-- **ডিজিটাল ইমপ্যাক্ট:** ৬ লক্ষাধিক ডিজিটাল ভিউ এবং ব্লগিং ইতিহাস (২০১২-বর্তমান)।
+- **ডিজিটাল ইমপ্যাক্ট:** ৬ লক্ষাধিক ডিজিটাল ভিউ এবং দীর্ঘ ব্লগিং ইতিহাস (২০১২-বর্তমান)।
 - **অফিশিয়াল ব্লগ:** [sujanmolla.blogspot.com](https://sujanmolla.blogspot.com)
 
 ---
