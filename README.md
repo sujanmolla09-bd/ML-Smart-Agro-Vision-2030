@@ -10,8 +10,6 @@
 </p>
 <p align="left">
   <img src="https://img.shields.io/badge/Google_Pay-Verified-4285F4?style=for-the-badge&logo=google-pay&logoColor=white" />
-  <img src="https://img.shields.io/badge/Merchant_Status-APPROVED-success?style=for-the-badge&logo=checkmarq&logoColor=white" />
-</p>
 
 ---
 
@@ -65,7 +63,8 @@
 আপনারা যদি আমার প্রজেক্টে সাপোর্ট করতে চান বা সরাসরি পেমেন্ট করতে চান, তবে নিচের মাধ্যমগুলো ব্যবহার করতে পারেন:
 
 ---
-
+<img src="https://img.shields.io/badge/Merchant_Status-APPROVED-success?style=for-the-badge&logo=checkmarq&logoColor=white" />
+</p>
 ## 💳 Verified Merchant Identity (Google Pay & Wallet)
 
 এই প্রোফাইলটি **ML-CONSUMER-SMART-AGRO** গুগল মার্চেন্ট ইকোসিস্টেমের অধীনে একটি ভেরিফাইড ব্যবসায়িক প্রোফাইল হিসেবে স্বীকৃত এবং ডিজিটাল লেনদেনের জন্য অনুমোদিত।
