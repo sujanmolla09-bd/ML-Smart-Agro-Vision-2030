@@ -8,6 +8,10 @@
   <img src="https://img.shields.io/badge/NVIDIA-Developer-76B900?style=for-the-badge&logo=nvidia&logoColor=white" />
   <img src="https://img.shields.io/badge/Firebase-Studio_Dev-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
 </p>
+<p align="left">
+  <img src="https://img.shields.io/badge/Google_Pay-Verified-4285F4?style=for-the-badge&logo=google-pay&logoColor=white" />
+  <img src="https://img.shields.io/badge/Merchant_Status-APPROVED-success?style=for-the-badge&logo=checkmarq&logoColor=white" />
+</p>
 
 ---
 
@@ -63,11 +67,6 @@
 ---
 
 ## 💳 Verified Merchant Identity (Google Pay & Wallet)
-
-<p align="left">
-  <img src="https://img.shields.io/badge/Google_Pay-Verified-4285F4?style=for-the-badge&logo=google-pay&logoColor=white" />
-  <img src="https://img.shields.io/badge/Merchant_Status-APPROVED-success?style=for-the-badge&logo=checkmarq&logoColor=white" />
-</p>
 
 এই প্রোফাইলটি **ML-CONSUMER-SMART-AGRO** গুগল মার্চেন্ট ইকোসিস্টেমের অধীনে একটি ভেরিফাইড ব্যবসায়িক প্রোফাইল হিসেবে স্বীকৃত এবং ডিজিটাল লেনদেনের জন্য অনুমোদিত।
 
