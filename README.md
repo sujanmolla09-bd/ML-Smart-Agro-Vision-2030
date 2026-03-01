@@ -60,7 +60,29 @@
 ### 💳 পেমেন্ট ও সাপোর্ট (Payment & Support)
 আপনারা যদি আমার প্রজেক্টে সাপোর্ট করতে চান বা সরাসরি পেমেন্ট করতে চান, তবে নিচের মাধ্যমগুলো ব্যবহার করতে পারেন:
 
-* **Google Pay:**
+---
+
+## 💳 Verified Merchant Identity (Google Pay & Wallet)
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Google_Pay-Verified-4285F4?style=for-the-badge&logo=google-pay&logoColor=white" />
+  <img src="https://img.shields.io/badge/Merchant_Status-APPROVED-success?style=for-the-badge&logo=checkmarq&logoColor=white" />
+</p>
+
+এই প্রোফাইলটি **ML-CONSUMER-SMART-AGRO** গুগল মার্চেন্ট ইকোসিস্টেমের অধীনে একটি ভেরিফাইড ব্যবসায়িক প্রোফাইল হিসেবে স্বীকৃত এবং ডিজিটাল লেনদেনের জন্য অনুমোদিত।
+
+### 🛠️ Merchant Details
+| Field | Information |
+| :--- | :--- |
+| **Merchant Name** | ML-CONSUMER-SMART-AGRO |
+| **Merchant ID** | `BCR2DN4TU6HJL5JV` |
+| **Profile ID** | `0721-6501-8581` |
+| **Business Category** | Misc. General Merchandise (5399) |
+| **Payment Gateway** | Verified (Mastercard.... 8963) |
+| **Identity** | Google Cloud Innovator & NVIDIA Developer Member |
+
+> **Vision 2030 Roadmap:** এই প্রোফাইলটি ১৭ বছরের ইন্ডাস্ট্রিয়াল অভিজ্ঞতা এবং এআই-চালিত কৃষি বিপ্লবের অংশ হিসেবে সরাসরি গুগল ক্লাউড সার্ভারের সাথে সংযুক্ত।
+---
 - গুগল অ্যাডসেন্স, পেওনিয়ার (Payoneer) এবং আন্তর্জাতিক পেমেন্ট ইকোসিস্টেম।
 
 ---
