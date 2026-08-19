@@ -1,57 +1,46 @@
 import os
+import pandas as pd
 from flask import Flask, jsonify
-from snowflake.snowpark import Session
-from snowflake.snowpark.functions import col, avg
 from datetime import datetime
-
-# --- Snowflake Connection Details (এই তথ্যগুলো আমরা পরে নিরাপদে যুক্ত করব) ---
-connection_parameters = {
-    "account": "YOUR_SNOWFLAKE_ACCOUNT",
-    "user": "YOUR_SNOWFLAKE_USER",
-    "password": "YOUR_SNOWFLAKE_PASSWORD",
-    "role": "YOUR_SNOWFLAKE_ROLE",
-    "warehouse": "YOUR_SNOWFLAKE_WAREHOUSE",
-    "database": "YOUR_SNOWFLAKE_DATABASE",
-    "schema": "YOUR_SNOWFLAKE_SCHEMA"
-}
 
 # Flask অ্যাপ তৈরি
 app = Flask(__name__)
 
-def main_snowflake_pipeline():
+def main_gcp_pipeline():
     """
-    Snowflake Snowpark Pipeline for Smart Agro Telemetry
+    GCP Pipeline for Smart Agro Telemetry (Migrated from Snowflake)
     """
-    try:
-        session = Session.builder.configs(connection_parameters).create()
-        
-        # Sample Telemetry Data
-        telemetry_data = [
-            {"sensor_id": "DRONE-01", "temperature": 28.5, "humidity": 75.2, "soil_moisture": 42.0, "timestamp": datetime.now()},
-            {"sensor_id": "DRONE-02", "temperature": 29.1, "humidity": 72.8, "soil_moisture": 40.5, "timestamp": datetime.now()},
-        ]
-        
-        df = session.create_dataframe(telemetry_data)
-        
-        table_name = "AGRO_TELEMETRY_LOGS"
-        df.write.mode("append").save_as_table(table_name)
-        
-        summary_df = session.table(table_name).group_by("sensor_id").agg(
-            avg(col("temperature")).alias("AVG_TEMP"),
-            avg(col("humidity")).alias("AVG_HUMIDITY")
-        )
-        
-        # ফলাফলকে JSON ফরম্যাটে রিটার্ন করা হচ্ছে
-        return summary_df.to_json(2)
-        
-    except Exception as e:
-        return {"error": str(e)}
+    # আপনার ড্রোনের স্যাম্পল ডেটা
+    telemetry_data = [
+        {"sensor_id": "DRONE-01", "temperature": 28.5, "humidity": 75.2, "soil_moisture": 42.0, "timestamp": datetime.now().isoformat()},
+        {"sensor_id": "DRONE-02", "temperature": 29.1, "humidity": 72.8, "soil_moisture": 40.5, "timestamp": datetime.now().isoformat()},
+        {"sensor_id": "IOT-FIELD-A", "temperature": 27.8, "humidity": 78.0, "soil_moisture": 45.1, "timestamp": datetime.now().isoformat()}
+    ]
+    
+    # ডেটাকে Pandas DataFrame-এ রূপান্তর (Snowpark-এর বিকল্প)
+    df = pd.DataFrame(telemetry_data)
+    
+    # ডেটা অ্যানালাইসিস এবং গড় (Average) বের করা
+    summary_df = df.groupby("sensor_id").agg(
+        AVG_TEMP=("temperature", "mean"),
+        AVG_HUMIDITY=("humidity", "mean")
+    ).reset_index()
+    
+    # ফলাফলকে JSON ফরম্যাটে রূপান্তর
+    return summary_df.to_dict(orient="records")
 
-# মূল ওয়েবসাইটের ঠিকানা (/)
+# ওয়েবসাইটের মূল ঠিকানা (/)
 @app.route('/')
 def run_pipeline():
-    result = main_snowflake_pipeline()
-    return jsonify(result)
+    try:
+        result = main_gcp_pipeline()
+        return jsonify({
+            "status": "Success ✅", 
+            "message": "Smart Agro Edge System is running directly on Google Cloud!", 
+            "data": result
+        })
+    except Exception as e:
+        return jsonify({"error": str(e)})
 
 if __name__ == "__main__":
     # Cloud Run-এর জন্য পোর্ট সেট করা
